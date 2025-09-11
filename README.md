@@ -101,7 +101,7 @@ go build -o filecopy hello.go
 ## Code Structure
 
 ```
-hello.go
+filecopy.go
 ├── main()                    # Entry point, handles command line arguments
 ├── getPath()                 # Resolves relative and absolute paths
 ├── getSourceDirectories()    # Orchestrates the copying process
